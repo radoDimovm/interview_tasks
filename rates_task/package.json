@@ -1,0 +1,21 @@
+{
+  "name": "rate-calculator",
+  "version": "0.0.1",
+  "description": "simple REST api in nodejs that calculates monthly rate OR mortgage rate based on given conditions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:local": "nodemon app.js"
+  },
+  "author": "Rado Dimov, github: radoDimovm",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "currency.js": "^2.0.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
